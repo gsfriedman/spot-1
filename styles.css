@@ -21,15 +21,16 @@ body {
 
 h2 {
 	font-size: 20pt;
-	margin-left: 25px;
 	padding: 22px 0 0 0;
 	line-height: 0.4em;
 	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .withline {
 	padding: 0px;
-	margin: 6px 0 0 25px;
+	margin: 6px 0 0 0;
+	letter-spacing: 0.5px; 
 }
 
 .banner {
@@ -39,6 +40,7 @@ h2 {
 	margin: 0px;
 	position: relative;
 	border: none;
+	text-align: center;
 }
 
 iframe { 
@@ -58,24 +60,4 @@ a, a:visited, a:active {
 a:hover {
 	color: orange;
 	text-decoration: underling;
-}
-
-table {
-	border: none;
-	float: right;
-	padding: 0px;
-	margin: 3px 0 0 0;
-	border-spacing: 4px;
-	padding-right: 4px;
-}
-
-tr, td {
-	padding: 0px;
-	margin: 0px;
-	line-height: 0px;
-}
-
-.ico {
-	height: 20px;
-	width: 20px;
 }
