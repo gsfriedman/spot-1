@@ -7,7 +7,7 @@ html, body, p, iframe, h1, h2, h3, a.h2 {
 	border:0;
 	font-size: 12pt;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #4B4F54;
+	color: #000000;
 	font-weight: 300;
 }
 
@@ -53,11 +53,12 @@ iframe {
 }
 
 a, a:visited, a:active {
-	color: orange;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
+    border-bottom: 0.5px dotted black;
 }
 
 a:hover {
-	color: orange;
-	text-decoration: underling;
+  color:  rgb(208, 114, 0); 
+  border-bottom: 0.5px dotted rgb(208, 114, 0);
 }
